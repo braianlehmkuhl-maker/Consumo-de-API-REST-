@@ -1,0 +1,22 @@
+/* aqui fica a aparência da caixa ou seja tudo que eu colocar aqui muda a caixa */
+.caixa{
+    width: 600px;
+    height: 150px;
+    background-color: oklch(59.496% 0.12077 158.459 / 0.596);
+    border-radius: 15px;
+    text-align: center;
+}
+/*aqui fica a aparência do body ou seja tudo que eu colocar muda o body do site */
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #EAF6FF;
+}
+/*aqui fica a aprência da pesquisa ou seja tudo que eu mudar ou colocar aqui vai mudar a pesquisa do index*/
+.pesquisa{
+
+background-color: rgba(220, 20, 60, 0.664);
+
+align-items: center;
+text-align: center;
+}
