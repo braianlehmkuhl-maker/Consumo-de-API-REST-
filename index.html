@@ -20,19 +20,27 @@ o h1 mostra o título principal, já o div class ="pesquisa" é a mesma coisa co
 deixa o usuário conseguir escrever dentro dele a pesquisa do local, o <input type="text" placeholder="Digite uma cidade ">
 mostra dentro da caixa oque deve ser copiado, o button mostra um botão para a pesquisa da cidade, o buscar apenas mostra oque
 o botão estará escrito, o <p> significa parágrafo ou seja tudo dentro dele é uma paraágrafo-->
+
 <body>
+    <main class="container">
+
+    
     <center>
-<div class="caixa">
-        <h1>Consulta do clima</h1>
-        <div class="pesquisa">
-            <input type="text" placeholder="Digite uma cidade ">
-            <button>
-                Buscar
-            </button>
+        <div class="caixa">
+            <h1>Consulta do clima</h1>
+            <div class="pesquisa">
+                <input type="text" id="cidade" placeholder="Digite uma cidade ">
+                <button id="buscar">
+                    Buscar
+                </button>
+            </div>
+            <p>Digite uma cidade para oonsultar</p>
         </div>
-        <p>Digite uma cidade para oonsultar</p>
-    </div>
-</center>
+    </center>
+    <section id="resultados ">
+    </section>
+</main>
+<script src="script.js"></script>
 </body>
 
 </html>
